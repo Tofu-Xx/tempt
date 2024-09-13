@@ -1,16 +1,15 @@
 <script setup lang="ts">
-const modelValue = defineModel()
+const val = defineModel()
+
 </script>
 
 <template>
   <input
     type="text"
-    v-model="modelValue"
+    v-model="val"
     v-bind="$attrs"
     p="x4 y2"
-    w250px
-    text-center
-    bg-transparent
+    bg-hex-8883
     border="~ rounded gray200 dark:gray700"
     outline="none active:none">
 </template>

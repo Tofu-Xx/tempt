@@ -1,19 +1,24 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "lib": ["DOM", "ESNext"],
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
     "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": [
+        "src/*"
+      ]
     },
     "resolveJsonModule": true,
     "types": [
       "vite/client",
       "unplugin-vue-macros/macros-global",
     ],
-    "allowJs": false,
+    "allowJs": true,
     "strict": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
@@ -24,5 +29,5 @@
   "exclude": [
     "dist",
     "node_modules",
-  ]
+  ],
 }

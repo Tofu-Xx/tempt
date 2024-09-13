@@ -15,7 +15,7 @@ export default defineConfig({
   },
   plugins: [
     VueMacros({
-      defineOptions: false,
+      defineProps:false,
       defineModels: false,
       plugins: {
         vue: Vue({
