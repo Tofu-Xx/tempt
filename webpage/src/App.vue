@@ -11,8 +11,6 @@ const editTitle = () => {
       placeholder="typing in title"
       autocomplete="false"
       @keydown.enter="editTitle" />
-    <button @click="toggleDark()">
-      <div i-ph-sun dark:i-ph-moon></div>
-    </button>
+    <TheFooter />
   </main>
 </template>

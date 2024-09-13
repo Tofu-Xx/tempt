@@ -13,7 +13,7 @@
     "vue": "^3.5.3"
   },
   "devDependencies": {
-    "@iconify-json/ph": "^1.2.0",
+    "@iconify-json/carbon": "^1.2.1",
     "@types/node": "^22.5.4",
     "@unocss/reset": "^0.62.3",
     "@vitejs/plugin-vue": "^5.1.3",
