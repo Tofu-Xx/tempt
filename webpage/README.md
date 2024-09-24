@@ -28,5 +28,5 @@
 
 ### quick start
 ```bash
-degit tofu-xx/tempt/webpage new-project
+npx degit tofu-xx/tempt/webpage new-project
 ```
