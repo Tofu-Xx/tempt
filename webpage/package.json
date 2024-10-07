@@ -1,6 +1,5 @@
 {
   "type": "module",
-  "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@9.11.0",
   "scripts": {
@@ -9,7 +8,6 @@
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit",
     "up": "taze major -I",
-    "release": "bumpp --all",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -26,7 +24,6 @@
     "@unocss/reset": "^0.63.1",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vue-macros/volar": "^0.30.3",
-    "bumpp": "^9.6.1",
     "eslint": "^9.12.0",
     "eslint-plugin-format": "^0.1.2",
     "pnpm": "^9.11.0",
