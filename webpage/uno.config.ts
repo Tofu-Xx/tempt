@@ -4,7 +4,7 @@ import {
   presetIcons,
   presetUno,
   presetWebFonts,
-} from "unocss";
+} from 'unocss'
 
 export default defineConfig({
   shortcuts: [],
@@ -17,10 +17,10 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
-        sans: "DM Sans",
-        serif: "DM Serif Display",
-        mono: "DM Mono",
+        sans: 'DM Sans',
+        serif: 'DM Serif Display',
+        mono: 'DM Mono',
       },
     }),
   ],
-});
+})

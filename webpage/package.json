@@ -9,19 +9,26 @@
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit",
     "up": "taze major -I",
-    "release": "bumpp --all"
+    "release": "bumpp --all",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@vueuse/core": "^11.1.0",
     "vue": "^3.5.10"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^3.7.3",
     "@iconify-json/carbon": "^1.2.1",
     "@types/node": "^22.7.4",
+    "@unocss/eslint-config": "^0.63.3",
+    "@unocss/eslint-plugin": "^0.63.3",
     "@unocss/reset": "^0.63.1",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vue-macros/volar": "^0.30.3",
     "bumpp": "^9.6.1",
+    "eslint": "^9.12.0",
+    "eslint-plugin-format": "^0.1.2",
     "pnpm": "^9.11.0",
     "taze": "^0.17.2",
     "typescript": "^5.6.2",

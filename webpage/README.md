@@ -18,15 +18,15 @@
   Directly use Vue Composition API and others without importing
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) -
   components auto import
-- [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - 
+- [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) -
   Explore and extend more macros and syntax sugar to Vue.
-- [VueUse](https://github.com/antfu/vueuse) - 
+- [VueUse](https://github.com/antfu/vueuse) -
   collection of useful composition APIs
-- [UnoCSS](https://github.com/unocss/unocss) - 
+- [UnoCSS](https://github.com/unocss/unocss) -
   The instant on-demand atomic CSS engine.
 
-
 ### quick start
+
 ```bash
 npx degit tofu-xx/tempt/webpage new-project
 ```

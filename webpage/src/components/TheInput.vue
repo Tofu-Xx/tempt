@@ -1,5 +1,5 @@
 <script setup lang="ts">
-export let modelValue:string;
+export let modelValue: string
 </script>
 
 <template>
