@@ -8,6 +8,6 @@ const title = useTitle()
       ::="title"
       placeholder="typing in title"
       autocomplete="false" />
-    <TheFooter />
+    <TheNav />
   </main>
 </template>

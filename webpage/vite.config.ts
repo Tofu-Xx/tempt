@@ -18,7 +18,9 @@ export default defineConfig({
     VueMacros({
       defineProps: false,
       defineModels: false,
-
+      shortVmodel: {
+        prefix: '::',
+      },
       exportProps: true,
       plugins: {
         vue: Vue({
