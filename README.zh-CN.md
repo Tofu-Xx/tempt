@@ -10,3 +10,4 @@
 
 ## 模板
 - [webpage](./webpage/README.zh-CN.md)
+- [pkg](./pkg/README.zh-CN.md)
